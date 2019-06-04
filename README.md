@@ -1,3 +1,15 @@
+# ⚠️ This is a custom fork of the official prismic-reactjs. 
+
+As the prismic content editor does not offer the option «link target» for media files (ie. PDF) its not possible for content editors to choose whether a media link should open in a new tab.
+
+In a specific project we have the requirement to open media links in a new tab. This is a workaround while the option is missing in the content editor.
+
+```sh
+npm install @pixelherz/prismic-reactjs --save
+```
+
+--- 
+
 ![alt text](https://prismic.io/...1b58998/images/logo-dark.svg)
 
 [![npm version](https://badge.fury.io/js/prismic-reactjs.svg)](http://badge.fury.io/js/prismic-reactjs)

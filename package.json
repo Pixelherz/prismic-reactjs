@@ -1,5 +1,5 @@
 {
-  "name": "prismic-reactjs",
+  "name": "@pixelherz/prismic-reactjs",
   "version": "0.3.2",
   "description": "render prismic rich text as React Element",
   "main": "dist/prismic-reactjs.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/prismicio/prismic-reactjs.git"
+    "url": "git+https://github.com/Pixelherz/prismic-reactjs.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/prismicio/prismic-reactjs/issues"
+    "url": "https://github.com/Pixelherz/prismic-reactjs/issues"
   },
-  "homepage": "https://github.com/prismicio/prismic-reactjs#readme",
+  "homepage": "https://github.com/Pixelherz/prismic-reactjs#readme",
   "dependencies": {
     "prismic-helpers": "^1.0.0",
     "prismic-richtext": "^1.0.1",
