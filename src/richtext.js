@@ -44,6 +44,10 @@ function serializeStandardTag(tag, element, children, key) {
 }
 
 function serializeHyperlink(linkResolver, element, children, key) {
+  // Use target '_blank' for type 'Media' by default
+  if (element.data.link_type === 'Media') {
+    element.data.target = element.data.target || '_blank';
+  }
   const targetAttr = element.data.target ? { target: element.data.target } : {};
   const relAttr = element.data.target ? { rel: 'noopener' } : {};
   const props = Object.assign({ href: LinkHelper.url(element.data, linkResolver) }, targetAttr, relAttr);
